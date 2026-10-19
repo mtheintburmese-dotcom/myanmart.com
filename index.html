@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f0e5">
+  <meta name="description" content="A historical recreation of Myanmar Mart, based on its archived December 2013 product catalog. Not a live shop.">
+  <title>Myanmar Mart — Historical Catalog</title>
+  <link rel="icon" href="assets/myanmar-mart-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="archive-ribbon" role="note">
+    <span class="ribbon-dot" aria-hidden="true"></span>
+    <span>Historical archive recreation · Not a live shop · Products are not for sale here</span>
+    <a href="https://web.archive.org/web/20131217102021/http://myanmarmart.com/index.php?main_page=products_all" target="_blank" rel="noopener noreferrer">Open the 2013 source <span aria-hidden="true">↗</span></a>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Myanmar Mart home">
+      <img src="assets/myanmar-mart-mark.svg" width="48" height="48" alt="">
+      <span class="brand-copy"><strong>MYANMAR MART</strong><small>International online shopping · archive edition</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+      <a href="#catalog" data-nav-view="all">Catalog</a>
+      <a href="#about">About</a>
+      <a href="#shipping">Shipping</a>
+      <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-rule"></span> A little piece of the 2013 web</p>
+        <h1 id="hero-title">Made with care.<br><em>Remembered here.</em></h1>
+        <p class="hero-intro">A faithful catalog recreation from Myanmar Mart’s archived storefront. Browse the four product listings preserved in the December 2013 record.</p>
+        <a class="button button-dark" href="#catalog">Explore the archive <span aria-hidden="true">↓</span></a>
+        <p class="hero-footnote"><span aria-hidden="true">✳</span> Historical record only — this website does not accept orders.</p>
+      </div>
+      <div class="hero-art" aria-label="Decorative Myanmar Mart archive seal">
+        <div class="art-ring ring-outer"></div><div class="art-ring ring-inner"></div>
+        <div class="art-center"><img src="assets/myanmar-mart-mark.svg" alt="" width="96" height="96"><span>ARCHIVE<br>EDITION</span></div>
+        <span class="art-caption caption-top">MYANMAR · 2013</span>
+        <span class="art-caption caption-bottom">A CATALOG PRESERVED</span>
+        <span class="art-star star-one" aria-hidden="true">✳</span>
+        <span class="art-star star-two" aria-hidden="true">✳</span>
+      </div>
+      <div class="hero-index" aria-hidden="true"><span>01</span><i></i><span>04</span></div>
+    </section>
+
+    <section class="archive-note" aria-label="Archive details">
+      <div class="note-stamp" aria-hidden="true">FROM<br>THE<br>ARCHIVE</div>
+      <p><strong>A preserved snapshot, not a current storefront.</strong><br>The listings and prices below come from Myanmar Mart’s archived All Products and New Products pages, captured on 17 December 2013. Availability and prices are historical and may no longer apply.</p>
+      <span class="note-date">17 DEC<br>2013</span>
+    </section>
+
+    <section class="catalog-section" id="catalog" aria-labelledby="catalog-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-rule"></span> The preserved collection</p>
+          <h2 id="catalog-title">A small catalog<br><em>with a story.</em></h2>
+        </div>
+        <p class="section-side-note">Four listings. Two designs.<br>One archived storefront.</p>
+      </div>
+
+      <div class="catalog-toolbar">
+        <div class="view-switch" role="group" aria-label="Choose catalog view">
+          <button class="view-button is-active" type="button" data-view="all" aria-pressed="true">All products <span>04</span></button>
+          <button class="view-button" type="button" data-view="new" aria-pressed="false">New in 2013 <span>04</span></button>
+        </div>
+        <label class="search-box">
+          <span class="sr-only">Search archived products</span>
+          <svg aria-hidden="true" viewBox="0 0 20 20"><circle cx="8.5" cy="8.5" r="5.5"></circle><path d="m13 13 4 4"></path></svg>
+          <input id="product-search" type="search" placeholder="Search the archive" autocomplete="off">
+          <kbd>/</kbd>
+        </label>
+      </div>
+
+      <div class="catalog-layout">
+        <aside class="category-rail" aria-label="Archived categories">
+          <p class="rail-label">Browse by category</p>
+          <button class="category-button is-active" type="button" data-category="all" aria-pressed="true"><span class="category-mark mark-all" aria-hidden="true">✳</span> All products <span class="category-count">04</span></button>
+          <button class="category-button" type="button" data-category="Gems & Jewelry" aria-pressed="false"><span class="category-mark" aria-hidden="true">◇</span> Gems &amp; Jewelry <span class="category-count">02</span></button>
+          <button class="category-button" type="button" data-category="Kanu Kamar Painting" aria-pressed="false"><span class="category-mark" aria-hidden="true">▧</span> Kanu Kamar Painting <span class="category-count">02</span></button>
+          <button class="category-button" type="button" data-category="Pre-owned" aria-pressed="false"><span class="category-mark" aria-hidden="true">↻</span> Pre-owned <span class="category-count">—</span></button>
+          <div class="rail-note"><span class="rail-note-icon" aria-hidden="true">✳</span><p>Category labels are transcribed from the original archive. Some categories had no products in the captured list.</p></div>
+        </aside>
+
+        <div class="product-area">
+          <div class="results-line"><p id="results-label" aria-live="polite">Showing 4 archived listings</p><span>PRICES SHOWN IN USD · AS ARCHIVED</span></div>
+          <div class="product-grid" id="product-grid" aria-live="polite"></div>
+          <div class="empty-state" id="empty-state" hidden>
+            <span aria-hidden="true">✳</span>
+            <h3>No archived listings found</h3>
+            <p>There were no products under this category or search in the captured catalog.</p>
+            <button class="text-button" type="button" id="reset-catalog">Show all listings <span aria-hidden="true">→</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="story-section" id="about" aria-labelledby="about-title">
+      <div class="story-seal" aria-hidden="true"><img src="assets/myanmar-mart-mark.svg" alt="" width="76" height="76"><span>EST. IN<br>THE ARCHIVE</span></div>
+      <div class="story-copy">
+        <p class="eyebrow eyebrow-light"><span class="eyebrow-rule"></span> About this recreation</p>
+        <h2 id="about-title">A window into<br><em>a web of the past.</em></h2>
+        <p>This page brings together the names, categories, and prices visible in a preserved Myanmar Mart storefront. The archive records a small selection of paintings and mascot pieces associated with the 2013 SEA Games.</p>
+        <p>It is an independent historical recreation. Myanmar Mart’s original site and this page are not represented as a current business or an active store.</p>
+        <a class="story-link" href="https://web.archive.org/web/20131217102021/http://myanmarmart.com/index.php?main_page=products_all" target="_blank" rel="noopener noreferrer">Visit the archived catalog <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="story-side-label" aria-hidden="true">HISTORY, KEPT IN VIEW</div>
+    </section>
+
+    <section class="service-section" id="shipping" aria-labelledby="shipping-title">
+      <div class="service-icon" aria-hidden="true">↗</div>
+      <div class="service-copy">
+        <p class="eyebrow"><span class="eyebrow-rule"></span> Customer service</p>
+        <h2 id="shipping-title">Shipping &amp; returns</h2>
+        <p>The archived storefront included a Shipping &amp; Returns information link. The historical page has been preserved as a record; shipping, returns, and customer support are not provided through this recreation.</p>
+      </div>
+      <a class="service-link" href="https://web.archive.org/web/20131217102021/http://myanmarmart.com/index.php?main_page=shippinginfo" target="_blank" rel="noopener noreferrer">Archived service page <span aria-hidden="true">↗</span></a>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-heading">
+        <p class="eyebrow eyebrow-light"><span class="eyebrow-rule"></span> Details from the archived listing</p>
+        <h2 id="contact-title">A note from<br><em>the old storefront.</em></h2>
+        <p class="contact-disclaimer">These contact details are reproduced for historical context only. They may no longer be active.</p>
+      </div>
+      <div class="contact-details">
+        <div class="contact-item"><span>PHONE · ARCHIVED</span><a href="tel:+959255725947">95 9 255725947</a></div>
+        <div class="contact-item"><span>EMAIL · ARCHIVED</span><a href="mailto:info@myanmarmart.com">info@myanmarmart.com</a></div>
+        <div class="contact-item"><span>ORIGINAL CATALOG</span><a href="https://web.archive.org/web/20131217102021/http://myanmarmart.com/index.php?main_page=products_all" target="_blank" rel="noopener noreferrer">Open in the Wayback Machine ↗</a></div>
+      </div>
+      <div class="contact-flower" aria-hidden="true">✳</div>
+    </section>
+
+    <section class="sitemap-section" id="sitemap" aria-labelledby="sitemap-title">
+      <div><p class="eyebrow"><span class="eyebrow-rule"></span> Site map</p><h2 id="sitemap-title">Find your way around.</h2></div>
+      <nav class="sitemap-links" aria-label="Site map links">
+        <a href="#home">Home</a><a href="#catalog">All Products</a><a href="#catalog" data-nav-view="new">New Products</a><a href="#about">About Us</a><a href="#shipping">Shipping &amp; Returns</a><a href="#contact">Contact Us</a>
+      </nav>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="#home"><img src="assets/myanmar-mart-mark.svg" width="38" height="38" alt=""><span>MYANMAR MART</span></a>
+    <p>A historical recreation based on archived pages.<br>Not affiliated with or operated by the original store.</p>
+    <a class="back-top" href="#home">Back to top ↑</a>
+  </footer>
+
+  <dialog class="product-dialog" id="product-dialog" aria-labelledby="dialog-title">
+    <form method="dialog"><button class="dialog-close" aria-label="Close product details">×</button></form>
+    <figure class="dialog-art"><img id="dialog-image" src="assets/products/logo-painting.jpg" alt=""><figcaption class="dialog-art-label">Original photo from the archived catalog</figcaption></figure>
+    <div class="dialog-content"><p class="eyebrow"><span class="eyebrow-rule"></span> From the December 2013 archive</p><p class="dialog-category" id="dialog-category"></p><h2 id="dialog-title"></h2><p class="dialog-price" id="dialog-price"></p><dl class="dialog-facts"><div><dt>Model / size</dt><dd id="dialog-model"></dd></div><div><dt>Archived listing</dt><dd>17 December 2013</dd></div><div><dt>Stock shown then</dt><dd id="dialog-stock"></dd></div></dl><p class="dialog-disclaimer">Historical listing only. No purchase or order is available from this recreation.</p><a class="dialog-source" id="dialog-source" href="#" target="_blank" rel="noopener noreferrer">View archived product page ↗</a></div>
+  </dialog>
+  <div class="dialog-backdrop" hidden></div>
+</body>
+</html>
